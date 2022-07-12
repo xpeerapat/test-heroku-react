@@ -162,7 +162,7 @@ function Home() {
                         pl: 3,
                         py: 2,
                         mt: 2,
-                        mb: 1,
+                        mb: 2,
                         borderRadius: 5,
                         boxShadow: 1,
                         backgroundColor: '#2A5CFF',
@@ -227,13 +227,14 @@ function Home() {
                         mt: 0.6
 
                     }}>
-                        <Link href="#" underline="none"> See All </Link>
+                        <Link href="#" underline="none" fontSize="13px"> See All </Link>
                     </Typography>
 
                     <List sx={{
                         width: '100%',   
                         borderRadius: 10,
                         boxShadow: 1, 
+                        mb:2
                     }}>
                         <ListDaily spend="Net Banking" price="$365" icon="bank" />
                         <ListDaily spend="Foods & Drinks" price="$169" icon="foods" />
@@ -255,14 +256,14 @@ function Home() {
                         mt: 0.6
 
                     }}>
-                        <Link href="#" underline="none"> See All </Link>
+                        <Link href="#" underline="none" fontSize="13px" > See All </Link>
 
                     </Typography>
 
                     {/* Slide items */}
                     <Box sx={{
                         width: '100%',
-                        height: 130,
+                        height: 120,
                         borderRadius: 10,
                         // backgroundColor: 'gray',
                         display: 'flex',
