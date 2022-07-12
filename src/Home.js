@@ -263,7 +263,7 @@ function Home() {
                     {/* Slide items */}
                     <Box sx={{
                         width: '100%',
-                        height: 120,
+                        height: 120, 
                         borderRadius: 10,
                         // backgroundColor: 'gray',
                         display: 'flex',
